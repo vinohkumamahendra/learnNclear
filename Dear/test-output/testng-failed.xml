@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [TestNgSeleniumSuite]" parallel="true">
+  <parameter name="browser" value="headless"/>
+  <test name="Firefox(failed)" parallel="true">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="selenium.SimpleExample">
+        <methods>
+          <include name="quitDriver"/>
+          <include name="quitDriver"/>
+          <include name="quitDriver"/>
+          <include name="quitDriver"/>
+          <include name="initDriver"/>
+          <include name="initDriver"/>
+          <include name="initDriver"/>
+          <include name="initDriver"/>
+          <include name="searchTestNGInGoogle" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- selenium.SimpleExample -->
+    </classes>
+  </test> <!-- Firefox(failed) -->
+  <test name="IE(failed)" parallel="true">
+    <parameter name="browser" value="IE"/>
+    <classes>
+      <class name="selenium.SimpleExample">
+        <methods>
+          <include name="quitDriver"/>
+          <include name="quitDriver"/>
+          <include name="quitDriver"/>
+          <include name="quitDriver"/>
+          <include name="initDriver"/>
+          <include name="initDriver"/>
+          <include name="initDriver"/>
+          <include name="initDriver"/>
+          <include name="searchTestNGInGoogle" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- selenium.SimpleExample -->
+    </classes>
+  </test> <!-- IE(failed) -->
+  <test name="Chrome(failed)" parallel="true">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="selenium.SimpleExample">
+        <methods>
+          <include name="quitDriver"/>
+          <include name="quitDriver"/>
+          <include name="quitDriver"/>
+          <include name="quitDriver"/>
+          <include name="initDriver"/>
+          <include name="initDriver"/>
+          <include name="initDriver"/>
+          <include name="initDriver"/>
+          <include name="searchTestNGInGoogle" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- selenium.SimpleExample -->
+    </classes>
+  </test> <!-- Chrome(failed) -->
+  <test name="headless(failed)" parallel="true">
+    <parameter name="browser" value="headless"/>
+    <classes>
+      <class name="selenium.SimpleExample">
+        <methods>
+          <include name="quitDriver"/>
+          <include name="quitDriver"/>
+          <include name="quitDriver"/>
+          <include name="quitDriver"/>
+          <include name="initDriver"/>
+          <include name="initDriver"/>
+          <include name="initDriver"/>
+          <include name="initDriver"/>
+          <include name="searchTestNGInGoogle" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- selenium.SimpleExample -->
+    </classes>
+  </test> <!-- headless(failed) -->
+</suite> <!-- Failed suite [TestNgSeleniumSuite] -->

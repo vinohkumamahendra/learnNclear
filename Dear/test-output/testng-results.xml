@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestNgSeleniumSuite" duration-ms="113072" started-at="2017-02-19T09:02:21Z" finished-at="2017-02-19T09:04:14Z">
+    <groups>
+    </groups>
+    <test name="headless" duration-ms="11504" started-at="2017-02-19T09:02:21Z" finished-at="2017-02-19T09:02:32Z">
+      <class name="selenium.SimpleExample">
+        <test-method status="PASS" signature="initDriver(java.lang.String)[pri:0, instance:selenium.SimpleExample@82f6ef]" name="initDriver" is-config="true" duration-ms="6498" started-at="2017-02-19T14:32:21Z" finished-at="2017-02-19T14:32:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[headless]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="searchTestNGInGoogle(java.lang.String)[pri:0, instance:selenium.SimpleExample@82f6ef]" name="searchTestNGInGoogle" duration-ms="4897" started-at="2017-02-19T14:32:27Z" finished-at="2017-02-19T14:32:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[headless]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTestNGInGoogle -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:selenium.SimpleExample@82f6ef]" name="quitDriver" is-config="true" duration-ms="3" started-at="2017-02-19T14:32:32Z" finished-at="2017-02-19T14:32:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- selenium.SimpleExample -->
+    </test> <!-- headless -->
+    <test name="IE" duration-ms="64153" started-at="2017-02-19T09:02:21Z" finished-at="2017-02-19T09:03:25Z">
+      <class name="selenium.SimpleExample">
+        <test-method status="PASS" signature="initDriver(java.lang.String)[pri:0, instance:selenium.SimpleExample@8b7f67]" name="initDriver" is-config="true" duration-ms="27868" started-at="2017-02-19T14:32:21Z" finished-at="2017-02-19T14:32:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="searchTestNGInGoogle(java.lang.String)[pri:0, instance:selenium.SimpleExample@8b7f67]" name="searchTestNGInGoogle" duration-ms="29243" started-at="2017-02-19T14:32:49Z" finished-at="2017-02-19T14:33:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTestNGInGoogle -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:selenium.SimpleExample@8b7f67]" name="quitDriver" is-config="true" duration-ms="7031" started-at="2017-02-19T14:33:18Z" finished-at="2017-02-19T14:33:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- selenium.SimpleExample -->
+    </test> <!-- IE -->
+    <test name="Chrome" duration-ms="95306" started-at="2017-02-19T09:02:21Z" finished-at="2017-02-19T09:03:56Z">
+      <class name="selenium.SimpleExample">
+        <test-method status="PASS" signature="initDriver(java.lang.String)[pri:0, instance:selenium.SimpleExample@15be6bb]" name="initDriver" is-config="true" duration-ms="68164" started-at="2017-02-19T14:32:21Z" finished-at="2017-02-19T14:33:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="searchTestNGInGoogle(java.lang.String)[pri:0, instance:selenium.SimpleExample@15be6bb]" name="searchTestNGInGoogle" duration-ms="25612" started-at="2017-02-19T14:33:29Z" finished-at="2017-02-19T14:33:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTestNGInGoogle -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:selenium.SimpleExample@15be6bb]" name="quitDriver" is-config="true" duration-ms="1514" started-at="2017-02-19T14:33:54Z" finished-at="2017-02-19T14:33:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- selenium.SimpleExample -->
+    </test> <!-- Chrome -->
+    <test name="Firefox" duration-ms="113072" started-at="2017-02-19T09:02:21Z" finished-at="2017-02-19T09:04:14Z">
+      <class name="selenium.SimpleExample">
+        <test-method status="PASS" signature="initDriver(java.lang.String)[pri:0, instance:selenium.SimpleExample@96442d]" name="initDriver" is-config="true" duration-ms="103190" started-at="2017-02-19T14:32:21Z" finished-at="2017-02-19T14:34:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="searchTestNGInGoogle(java.lang.String)[pri:0, instance:selenium.SimpleExample@96442d]" name="searchTestNGInGoogle" duration-ms="7937" started-at="2017-02-19T14:34:04Z" finished-at="2017-02-19T14:34:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTestNGInGoogle -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:selenium.SimpleExample@96442d]" name="quitDriver" is-config="true" duration-ms="1931" started-at="2017-02-19T14:34:12Z" finished-at="2017-02-19T14:34:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- selenium.SimpleExample -->
+    </test> <!-- Firefox -->
+  </suite> <!-- TestNgSeleniumSuite -->
+</testng-results>
