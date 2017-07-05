@@ -5,6 +5,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
 import java.util.Set;
+import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.Alert;
@@ -50,6 +51,7 @@ public class SeleniumUtility {
 				e.printStackTrace();
 			}
 		}
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.get(URLAddress);
 	}
 	public void Ale() throws Exception{
@@ -214,6 +216,19 @@ public class SeleniumUtility {
 			
 		}
 		return value;
+	}
+	//added to new method to pause and close browser - Vinoth
+	public void pause(int ms){
+		try {
+			Thread.sleep(ms);
+		} catch (InterruptedException e) {
+			//cleanup
+			Thread.currentThread().interrupt();
+		}
+	}
+	
+	public void closeBrowser(){
+		driver.close();
 	}
 
 }
