@@ -34,12 +34,16 @@ public class Editaddress {
 		a.textBoxHandling("id","edit-field-permanent-address-und-0-postal-code","625009");
 		a.checkBoxHandling("xpath",".//*[@id='edit-field-willing-to-work-und']/div[1]/label");
 		a.locateElement("xpath",".//*[@id='customers-node-form']/div/fieldset[2]/legend/span/a").click();
+		//need some pause : div not expand immediately - vinoth
+		a.pause(2000);
 		a.textBoxHandling("xpath",".//*[@id='edit-field-education-information-und-0-field-institution-name-und-0-value']","KLNCIT");
 		a.textBoxHandling("xpath",".//*[@id='edit-field-education-information-und-0-field-degree-name-und-0-value']","B.E");
 		a.textBoxHandling("xpath",".//*[@id='edit-field-education-information-und-0-field-specialization-und-0-value']","CSE");
 		a.dropDownHandling("xpath",".//*[@id='edit-field-education-information-und-0-field-year-of-passing-und-0-value-year']",18);
 		a.textBoxHandling("xpath",".//*[@id='edit-field-education-information-und-0-field-percentage-of-marks-und-0-value']","80");
 		a.locateElement("xpath",".//*[@id='customers-node-form']/div/fieldset[3]/legend/span/a").click();
+		//need some pause : div not expand immediately - vinoth
+		a.pause(2000);
 		a.textBoxHandling("xpath",".//*[@id='edit-field-professional-information-und-0-field-company-name-und-0-value']","CTS");
 		a.textBoxHandling("xpath",".//*[@id='edit-field-professional-information-und-0-field-role-und-0-value']","STA");
 		a.locateElement("xpath",".//*[@id='edit-field-professional-information-und-0-field-duration-und-0-value-datepicker-popup-0']").clear();
@@ -64,6 +68,9 @@ public class Editaddress {
 		a.textBoxHandling("id","edit-field-present-address-und-0-postal-code","600100");
 		a.buttonHandling("xpath",".//*[@id='edit-submit']");
 		a.Ale();
+		
+		//close browser after complete the process - Vinoth
+		a.closeBrowser();
 		}
 
 }
