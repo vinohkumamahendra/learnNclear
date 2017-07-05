@@ -58,6 +58,11 @@ public class gender {
 		 * verify the error message
 		 * Question to not add education details, please change accordingly
 		 */
+		/*Vignesh--May i know why the below code doesn't capture the error message
+		String err=a.locateElement("xpath",".//*[@id='content']/div[1]/ul/li[1]").getText();
+		String err=a.locateElement("class","messages error").getText();
+		System.out.println("Error shown is"+err);
+		*/
 	}
 
 }
