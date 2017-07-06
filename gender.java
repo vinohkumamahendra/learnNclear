@@ -58,11 +58,21 @@ public class gender {
 		 * verify the error message
 		 * Question to not add education details, please change accordingly
 		 */
-		/*Vignesh--May i know why the below code doesn't capture the error message
-		String err=a.locateElement("xpath",".//*[@id='content']/div[1]/ul/li[1]").getText();
-		String err=a.locateElement("class","messages error").getText();
+		a.pause(20000);
+	//	Vignesh--May i know why the below code doesn't capture the error message
+		//String err=a.locateElement("xpath",".//*[@id='content']/div[1]/ul/li[1]").getText();
+//		String err1=a.locateElement("class","messages error").getText();
+		String err1=a.locateElement("xpath",".//*[@class='messages error']").getText();
+		String err=a.locateElement("class","error").getText();
 		System.out.println("Error shown is"+err);
-		*/
+		System.out.println("Error shown is"+err1);
+		/*
+		Vinoth - Vignesh, line 63 is not correct xpath so its fail
+		line 64, here you see your class contain space inbetween - it means it has two class.. generally multiple class not supported by class name locator
+			So either u use one class as line 66 or u can have xpath like line 65
+		*/	
+		
+		
 	}
 
 }
