@@ -71,7 +71,8 @@ public class gender {
 		line 64, here you see your class contain space inbetween - it means it has two class.. generally multiple class not supported by class name locator
 			So either u use one class as line 66 or u can have xpath like line 65
 		*/	
-		
+		/*Yes, vinoth ur code on line 65 & 66 is working fine*/
+			
 		
 	}
 
