@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="LearNClear1">
+
+<test name="Add Customer">
+	<classes>
+		<class name = "AddCustomer.Editaddress" />
+	</classes>
+</test>
+  
+</suite> 

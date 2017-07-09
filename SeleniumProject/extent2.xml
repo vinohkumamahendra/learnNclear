@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+    <configuration>
+        <encoding>UTF-8</encoding>
+        <documentTitle>LearnNClear Report</documentTitle> <!-- This title will be displayed as browser title for the page -->           
+        <reportName>Add Customer</reportName>  <!-- This will be your report heading -->
+    <!--<reportHeadline>Health Check up</reportHeadline> -->
+        <dateFormat>ddMMMyyyy</dateFormat>
+		<timeFormat>HH:mm:ss</timeFormat>
+		<!-- custom javascript --> 
+	 	<scripts> <![CDATA[ $(document).ready(function() { $(".logo-content").hide(); $(".logo-container").html("<img src='Picture/learnNclear logo.jpg' />" ); $('li.theme-selector').next('li').next('li').hide(); }); ]]> 
+		</scripts> 
+		<!-- custom styles -->
+        <styles>
+            <![CDATA[
+              	 .logo-container { width : 100px; } 
+              	 .report-name { padding-left: 150px; } 
+                 .logo-container > img { float: left;height: 48px;margin-left: 0px;margin-top: 0px;width: auto; }
+            ]]>
+        </styles>     
+    </configuration>
+</extentreports>
